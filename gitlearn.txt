@@ -1,0 +1,37 @@
+/* 常用指令 */
+git vim <文件名> //添加文件并编辑它
+
+cd <目录>  
+git init //将该目录变成git可以管理的仓库
+
+git add <document1>,<document2> //将文件1和文件2添加到git工作暂存区
+
+git commit -m "备注" //将工作暂存区的文件都提交到本地服务器
+
+git log //显示从最近到最远的提交日志,注意commit id(版本号)
+
+git reset --hard <commit id> //指定回到某个版本号
+
+git reset --hard HEAD^ //将HEAD指针指向上一个版本号
+
+rm <document>
+git rm <doucument>
+git commit //删除的三步
+
+/* 撤销 */
+情景1：只加入到工作区
+git checkout -- <file> //当改动了工作区某个文件内容，想直接丢弃工作区操作使用
+情景2：加入到了暂存区
+git reset HEAD <document> 
+git checkout -- <file> 
+情景3：加入到了版本库
+git reset --hard <commit id> //直接回退版本
+
+/* 远程库 */
+1.添加远程库并提交
+git remote add <origin> git@<github.com:xxxxx.git> 通过SSH方式连接远程库，远程库名字为origin 
+git push master //将本地库的内容推送到远程,将master推送到远程
+2.从远程库克隆
+
+
+
