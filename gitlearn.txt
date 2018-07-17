@@ -1,5 +1,5 @@
 /* 常用指令 */
-git vim <文件名> //添加文件并编辑它
+vim <文件名> //添加文件并编辑它
 
 cd <目录>  
 git init //将该目录变成git可以管理的仓库
@@ -30,7 +30,7 @@ git reset --hard <commit id> //直接回退版本
 /* 远程库 */
 1.添加远程库并提交
 git remote add <origin> git@<github.com:xxxxx.git> 通过SSH方式连接远程库，远程库名字为origin 
-git push master //将本地库的内容推送到远程,将master推送到远程
+git push origin master //将本地库的内容推送到远程库,将master推送到origin
 2.从远程库克隆
 
 
