@@ -32,6 +32,7 @@ git reset --hard <commit id> //直接回退版本
 git remote add <origin> git@<github.com:xxxxx.git> 通过SSH方式连接远程库，远程库名字为origin 
 git push origin master //将本地库的内容推送到远程库,将master推送到origin
 2.从远程库克隆
+git clone git@<github.com:xxxxx.git> 
 
 
 
