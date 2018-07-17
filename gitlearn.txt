@@ -35,7 +35,8 @@ git push origin master //将本地库的内容推送到远程库,将master推送
 git clone git@<github.com:xxxxx.git> 
 
 /* 分支管理 */
-1.创建和合并分支
+1.创建和合并分支（因为创建、合并和删除分支非常快，所以Git鼓励你使用分支完成某个任务，合并后再删掉分支，这和直接在master分支上
+工作效果是一样的，但过程更安全。）
 git branch //查看当前分支的情况，*为当前分支
 git branch -d dev //删除dev分支（注意合并）
 git branch dev //创建分支
