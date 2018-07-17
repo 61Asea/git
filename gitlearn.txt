@@ -41,5 +41,5 @@ git checkout -b dev //创建并切换到dev分支,dev分支一创建就指向最
 git checkout -b dev相当于 git branch dev和git checkout dev两条指令组合
 git checkout dev //切换到dev分支
 git merger dev //将当前分支dev的工作成果合并到master分支中
-
+git merge命令用于合并指定分支到当前分支。
 
