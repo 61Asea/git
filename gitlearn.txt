@@ -34,5 +34,11 @@ git push origin master //将本地库的内容推送到远程库,将master推送
 2.从远程库克隆
 git clone git@<github.com:xxxxx.git> 
 
+/* 分支管理 */
+1.创建和合并分支
+git branch //查看当前分支的情况，*为当前分支
+git checkout -b dev //创建并切换到dev分支
+git checkout -b dev相当于 git branch dev和git checkout dev两条指令组合
+git checkout dev //切换到dev分支
 
 
