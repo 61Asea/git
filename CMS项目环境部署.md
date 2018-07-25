@@ -2,7 +2,7 @@
 以CMS项目环境部署为例
 ## 1.代码获取
 ### 1.1.GitLab Clone
-+ 登录 http://gitlab.61info.com/，clone 以下项目
++ 登录 http://gitlab.61info.com/clone 以下项目
 + RBKD-CMS（项目文件） 
   1. i61-common（项目依赖源码） 
   2. RBKD-MODULE（项目依赖源码）
@@ -23,14 +23,13 @@
 ## 6.项目部署
 ### 6.1.IDE导入项目
 + 在 IDE 中导入项目代码及依赖项目
-+ 导入Project    RBKD-CMS（项目文件）
-+ 导入 Module   i61-common（项目依赖源码）
-+ 导入 Module   RBKD-MODULE（项目依赖源码）
+1. 导入Project    RBKD-CMS（项目文件）
+2. 导入 Module   i61-common（项目依赖源码）
+3. 导入 Module   RBKD-MODULE（项目依赖源码）
 ### 6.2.IDE 中设置依赖包使用源码
-右键项目-路径设置，将两个依赖源码加入RBKD-CMS项目文件中
-
-安装maven,配置环境变量，设置本地仓库，在IDEA中设置Maven目录，设置阿里云镜像。
-maven 配置文件中加入
+-右键项目-路径设置，将两个依赖源码加入RBKD-CMS项目文件中
+-安装maven,配置环境变量，设置本地仓库，在IDEA中设置Maven目录，设置阿里云镜像。
+-maven 配置文件中加入
 ```
 <profile>
     <id>local_nexus</id>
