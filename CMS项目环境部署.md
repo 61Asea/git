@@ -73,5 +73,5 @@
 将dev.cms.61info.cn 改为127.0.0.1
 ### 7.4.输入URL进入系统
 在浏览器中输入 dev.cms.61info.cn
-输入账号密码，进入CMS系统
-注意：根据同源策略，127.0.0.1与localhost是不同源的，所以登录时保存的信息的session的sessionId与后一个请求的sessionId不一致，导致无法获取之前保存的信息。
++ 输入账号密码，进入CMS系统
+**注意：根据同源策略，127.0.0.1与localhost是不同源的，所以登录时保存的信息的session的sessionId与后一个请求的sessionId不一致，导致无法获取之前保存的信息**
